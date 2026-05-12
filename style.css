@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(./background-image.png);
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    height: 10%;
+    width:100% ; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navi1{
+    height: 100%;
+    width: 30%;
+
+}
+.navi2{
+    height: 100%;
+    width : 50%;
+    display: flex;
+    gap: 30px;
+}
+.navi2 h1{
+    height: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight : 100;
+    color: rgb(122, 132, 140);
+
+}
+.navi3{
+    height: 100%;
+    width: 80px;
+    color: rgb(240, 243, 245);
+}
+.navi3 i {
+    height: 100%;
+    color: aliceblue;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+img{
+    padding: 15px;
+    height: 80px;
+    width: 130px;
+}
+
+
+.logo img{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    top: 150px;
+    left: 40px;
+}
+
+h2{
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight : 100;
+    color: rgb(180, 189, 196);
+    top: 350px;
+    left: 70px;
+}
+
+.b1{
+    position: absolute;
+    top:400px;
+    left: 70px;
+    height: 50px;
+    width: 150px;
+    background: linear-gradient(90deg,red,orange);
+    border-radius: 10px;
+}
+.b2{
+    position: absolute;
+    top:400px;
+    left: 250px;
+    height: 50px;
+    width: 150px;
+    background-color: transparent;
+    border-color: rgb(93, 1, 1);
+    border-width: 1px;
+    border-radius: 10px;
+}
+
+.guard img{
+    position: absolute;
+    height: 550px;
+    width: 650px;
+    left: 700px;
+}
+
+#foot{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 650px;
+    left: 300px;
+
+}
+.one{
+
+}
